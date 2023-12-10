@@ -1,59 +1,39 @@
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-color: #000; /* New - sets background color to black */
-  background-position: center; /* New - centers background video */
-  background-size: cover; /* New - stretches background video to cover the entire screen */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
 .container {
-  text-align: center;
-  position: relative; /* New - allows video to be positioned behind content */
-}
-
-Snaptik.app_7277847110651841797.mp4
-video {
-  position: absolute; /* New - positions video behind content */
-  top: 0; /* New - sets video to top of container */
-  left: 0; /* New - sets video to left of container */
-  width: 100%; /* New - sets video width to 100% of container */
-  height: 100%; /* New - sets video height to 100% of container */
-  object-fit: cover; /* New - stretches video to fit container */
-  z-index: -1; /* New - places video behind content */
-  muted: true; /* New - mutes video audio */
+    text-align: center;
 }
 
 h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
 .buttons {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 button {
-  padding: 10px 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #fff;
-  cursor: pointer;
-  margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0 10px;
 }
 
 .message {
-  font-weight: bold;
-  animation: fade-in 1s ease-in-out;
+    font-weight: bold;
+    animation: fade-in 1s ease-in-out;
 }
 
 @keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
