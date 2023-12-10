@@ -7,5 +7,5 @@ yesBtn.addEventListener("click", () => {
 });
 
 noBtn.addEventListener("click", () => {
-    messageEl.textContent = "Oo na alam ko naman, but still sorry ha, and sana wag mo na ko i-restrict hahhahahaha.";
+    messageEl.textContent = "Oo na alam ko naman, but still sorry ha, and miss u na sana di mo na ko i-restrict hahhahahaha, umay dito boring pag di ka kausap.";
 });
